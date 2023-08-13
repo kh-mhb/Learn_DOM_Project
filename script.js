@@ -7,7 +7,8 @@ document.getElementById('submit-button').addEventListener('click',function()
     // if (userEmail == 'mahmudulhasanw3b@gmail.com' & userPassword == 'admin123')
     if(userEmail == 'mahmudulhasanw3b@gmail.com' & userPassword == 'admin123')
     {
-        console.log('Valid User');
+        // console.log('Valid User');
+         window.location.href ='bank.html'
     }
     else
     {
